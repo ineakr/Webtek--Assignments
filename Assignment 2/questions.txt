@@ -1,0 +1,40 @@
+Questions Assignment 2:
+
+1. Why does inline style CSS override rules defined in style elements and
+external stylesheets?
+- There are five levels of styles, and these are ordered in a hierarchy. The
+inline style has highest precedence. Therefore, the inline style will override
+the other.
+
+
+2. Give a brief example of when to use ID (#id) and when to use classes (.class)
+in CSS.
+- ID's are used when there's one single thing to style. For example if you want
+the main title to have a bigger font-size than the other headings. The ID
+must be unique.
+
+Classes are used when there are several of the same thing. For example if
+there are buttons, and all the buttons are going to be styled the same way.
+
+
+3. What does RGBA mean and what colors can you express with it?
+- RGBA means how much red, green and blue there is in the color. The colors that
+can be expressed with RGB is therefore a mix between these colors. The RGB
+stands for the colors. The A stands for alpha, which is the opacity of the
+color. The RGB is a number between 0 and 255, while the alpha is a number
+between 0 and 1.
+
+
+4. Why do we include CSS files inside the head element and not inside the body
+element?
+- The body is where the content of the browser is. The head, on the other hand,
+is where the information about the document is. CSS is the information about
+the styling of the document, and therefore are included in the head.
+
+
+5. What CSS selector matches all the p elements inside the article element in
+the following HTML?
+- The type selector.
+    p {
+    ...
+    }

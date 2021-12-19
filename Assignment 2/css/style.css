@@ -1,0 +1,18 @@
+
+/* Font header */
+h1, h2{
+  font-family: Courier, Arial, serif;
+}
+/* Background color */
+body{
+  background-color: #F5F5E5;
+  font-family: verdana, arial, serif;
+}
+
+img{
+  width: 150px;
+  height: 205px;
+  border-width: 6px;
+  border-style: double;
+  border-color: #000000;
+}

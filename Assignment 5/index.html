@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>IT2805 assignment 5: JavaScript introduction</title>
+
+    <style>
+      .box{
+        /* Sets the size and position of each box */
+        width: 200px;
+        height: 200px;
+        background-color: #185D8B;
+        margin: 10px;
+
+        /* Sets the font within each box*/
+        color: #fff;
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 200px;
+        font-size: 100px;
+      }
+
+      .buttons{
+        width: 200px;
+        margin: 10px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h1 id='title'></h1>
+
+    <h2>Part 5</h2>
+    <div class='buttons'>
+      <button id="display">Display: none </button>
+      <button id="visibility">Visibility: hidden</button>
+      <button id="reset">Reset</button>
+    </div>
+    <div class='box' id='magic'> 1 </div>
+    <div class='box'> 2 </div>
+
+    <h2>Part 6</h2>
+    <ul id='tech'>
+    </ul>
+    
+    <script type="text/javascript" src="script.js"></script>
+    <!-- Connecting the JavaScript file to the HTML. I'm including it at the
+    bottom of body. This is because the element JavaScript is going to try
+    to access needs to be rendered before the js can run. If not it fails. Therefore it is good
+    to implement all JavaScript using relative path at the bottom.-->
+  </body>
+</html>
